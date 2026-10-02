@@ -1,59 +1,37 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img alt="Matan Elbaz: backend, payments, distributed systems, builder" src="assets/banner-dark.svg" width="100%">
+  <img alt="Matan Elbaz: backend, distributed systems, infrastructure, AI developer tooling" src="assets/banner-dark.svg" width="100%">
 </picture>
 
-**I build systems that move money, and products that move people.**
-Backend tech lead by day. Founder by night. Tel Aviv.
+I build systems that move money, and products that move people.
+
+Senior backend engineer and tech lead in Tel Aviv. I've spent 5+ years building and operating distributed systems in production, I build developer tooling around AI, and I co-founded and build [Snapick](https://snapick-ai.com/).
 
 ```java
 public class Matan implements BackendEngineer, Founder {
-
-    // by day: payments, SWIFT, messaging at scale
-    // where "eventually consistent" is a liability
-    Domain day = Domain.of(PAYMENTS, SWIFT, MESSAGING);
-
-    // by night: a product, from zero to production
-    Product night = new Snapick(PHOTOS, FACE_RECOGNITION);
-
-    Stack stack = Stack.of(JAVA, SPRING_BOOT, KAFKA,
-        RABBITMQ, REDIS, POSTGRES, AWS);
-
-    List<String> obsessions = List.of(
-        "what happens when this fails at 3 a.m.",
-        "retries that don't make things worse",
-        "AI that ships reviews people actually read",
-        "tools that make other builders faster"
-    );
-
+    Focus focus = Focus.of(
+        DISTRIBUTED_SYSTEMS, INFRASTRUCTURE, AI_DEV_TOOLING);
     boolean usesAiToCode() { return true; } // and I read it
 }
 ```
 
-## Where the time goes
+## Production systems
 
-**Production, for real.** Financial infrastructure: payments, SWIFT, messaging at millions of requests per minute. Correctness over cleverness, and lessons the docs never taught me.
+Most of my production experience is financial infrastructure: payments, SWIFT, and high-throughput messaging at millions of requests per minute. I lead backend work and stay hands-on in architecture, reliability and operations.
 
-**AI as developer tooling.** I led an AI code review system used by hundreds of developers across 10,000+ pull requests a month. Less demo, more "does it survive a real codebase and real opinions."
+Day to day that's Java and Spring Boot on AWS, with Kafka, RabbitMQ, Redis and PostgreSQL.
 
-**Building from scratch.** [Snapick](https://snapick-ai.com/) turns event photos into personal galleries with face recognition. Co-founder, hands-on across backend, infra and product. Live in production.
+## AI code review
 
-## Now
+I led the development of an AI-powered code review system used across hundreds of developers, reviewing 10,000+ pull requests a month. It's internal to my employer, so the code isn't public.
 
-- **Oct 2026.** Cleaning house and planning the first public repos. Private work stays private; what's reusable comes out here.
+I also use AI coding tools heavily in my own work, and I'm most interested in the practical side of them: making them reliable and useful to the engineers who have to review their output.
 
-## Coming to this profile
+## Snapick
 
-| Next | What it is |
-|---|---|
-| **Skills for backend work** | Rules and review checklists for AI coding tools, from the failures that actually page people |
-| **Failure modes** | Distributed-systems patterns in Java where each one ships with the failure it prevents, reproducible in one command |
-| **A code review agent** | Built from scratch, and measured against a set of known bugs instead of vibes |
-| **Marketplace** | Later |
+[Snapick](https://snapick-ai.com/) is an event-photo platform: it uses face recognition to give each guest a personal gallery of the photos they appear in. I co-founded it, build it hands-on across backend, infrastructure and product, and operate it in production.
 
-## Already here
+## Public work
 
-[**1Z0-808**](https://github.com/MatanElbaz/1Z0-808) is a free Q&A guide for the Oracle Java SE 8 Programmer I exam. Written in 2020, still around.
-
-<sub>Backend engineer. Builder. Probably reading a stack trace right now.</sub>
+Most of my work is in private repositories. [**1Z0-808**](https://github.com/MatanElbaz/1Z0-808) is an older public project: a free Q&A guide for the Oracle Java SE 8 Programmer I exam.
