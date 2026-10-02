@@ -1,71 +1,59 @@
-<h1 align="center">Matan Elbaz</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img alt="Matan Elbaz: backend, payments, distributed systems, builder" src="assets/banner-dark.svg" width="100%">
+</picture>
 
-<p align="center">
-  <b>I build systems that move money, and products that move people.</b><br/>
-  Backend tech lead by day. Founder by night. Tel Aviv.
-</p>
-
-<p align="center">
-  <a href="https://snapick-ai.com/">snapick-ai.com</a>
-</p>
-
----
+**I build systems that move money, and products that move people.**
+Backend tech lead by day. Founder by night. Tel Aviv.
 
 ```java
 public class Matan implements BackendEngineer, Founder {
 
-    // by day: payments & fintech, where "eventually consistent" is not a vibe, it's a liability
-    Domain day = Domain.of(PAYMENTS, SWIFT, MESSAGING, HIGH_THROUGHPUT);
+    // by day: payments, SWIFT, messaging at scale
+    // where "eventually consistent" is a liability
+    Domain day = Domain.of(PAYMENTS, SWIFT, MESSAGING);
 
-    // by night: shipping a product from zero to production
-    Product night = new Snapick(PHOTOS, FACE_RECOGNITION, EVENTS);
+    // by night: a product, from zero to production
+    Product night = new Snapick(PHOTOS, FACE_RECOGNITION);
 
-    // the stack I reach for first
-    Stack stack = Stack.of(JAVA, SPRING_BOOT, KAFKA, RABBITMQ, REDIS, POSTGRES, AWS);
+    Stack stack = Stack.of(JAVA, SPRING_BOOT, KAFKA,
+        RABBITMQ, REDIS, POSTGRES, AWS);
 
-    // the obsessions
     List<String> obsessions = List.of(
         "what happens when this fails at 3 a.m.",
-        "idempotency, ordering, and retries that don't make things worse",
-        "AI that ships code reviews people actually read",
+        "retries that don't make things worse",
+        "AI that ships reviews people actually read",
         "tools that make other builders faster"
     );
 
-    boolean usesAiToCode() { return true; } // heavily. and I review what it writes.
+    boolean usesAiToCode() { return true; } // and I read it
 }
 ```
 
----
+## Where the time goes
 
-### What I'm into
+**Production, for real.** Financial infrastructure: payments, SWIFT, messaging at millions of requests per minute. Correctness over cleverness, and lessons the docs never taught me.
 
-**Production, for real.** Years inside financial infrastructure: payments, SWIFT, messaging systems handling millions of requests per minute. The kind of work where correctness beats cleverness, and the on-call rotation teaches you everything the docs don't.
+**AI as developer tooling.** I led an AI code review system used by hundreds of developers across 10,000+ pull requests a month. Less demo, more "does it survive a real codebase and real opinions."
 
-**AI as developer tooling.** I led the build of an AI code review system running across hundreds of developers and 10,000+ pull requests a month. Less "AI demo", more "does it survive contact with a real monorepo and real opinions."
+**Building from scratch.** [Snapick](https://snapick-ai.com/) turns event photos into personal galleries with face recognition. Co-founder, hands-on across backend, infra and product. Live in production.
 
-**Building from scratch.** [Snapick](https://snapick-ai.com/) is an event-photo platform: guests get a personal gallery of just the photos they appear in. I'm co-founder, and I work across backend, infra, and product.
+## Now
 
----
+- **Oct 2026.** Cleaning house and planning the first public repos. Private work stays private; what's reusable comes out here.
 
-### The workshop
+## Coming to this profile
 
-Most of my work lives in private repos. This is where it starts coming out in public.
-
-| | |
+| Next | What it is |
 |---|---|
-| **Snapick** | Live. Event photos, face recognition, personal galleries. |
-| **Marketplace** | In the works. |
-| **Tools for builders** | In the works. |
-| **Notes on distributed systems and AI tooling** | Coming. |
+| **Skills for backend work** | Rules and review checklists for AI coding tools, from the failures that actually page people |
+| **Failure modes** | Distributed-systems patterns in Java where each one ships with the failure it prevents, reproducible in one command |
+| **A code review agent** | Built from scratch, and measured against a set of known bugs instead of vibes |
+| **Marketplace** | Later |
 
----
+## Already here
 
-### Still useful after all these years
+[**1Z0-808**](https://github.com/MatanElbaz/1Z0-808) is a free Q&A guide for the Oracle Java SE 8 Programmer I exam. Written in 2020, still around.
 
-[**1Z0-808**](https://github.com/MatanElbaz/1Z0-808): a free Q&A guide for the Oracle Java SE 8 Programmer I exam. I wrote it in 2020 and strangers still star it.
-
----
-
-<p align="center">
-  <sub>Backend engineer. Builder. Probably debugging something right now.</sub>
-</p>
+<sub>Backend engineer. Builder. Probably reading a stack trace right now.</sub>
