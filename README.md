@@ -34,4 +34,8 @@ I also use AI coding tools heavily in my own work, and I'm most interested in th
 
 ## Public work
 
-Most of my work is in private repositories. [**1Z0-808**](https://github.com/MatanElbaz/1Z0-808) is an older public project: a free Q&A guide for the Oracle Java SE 8 Programmer I exam.
+Most of my work is in private repositories. What is public:
+
+- [**spring-failure-lab**](https://github.com/MatanElbaz/spring-failure-lab): reproduce backend failures on Spring Boot and Kafka with one command. Each scenario has a test that shows the failure and a test that shows the fix. Early: one scenario so far.
+- [**backend-skills**](https://github.com/MatanElbaz/backend-skills): five Claude Code skills that check backend code against common production failure modes: idempotency, transaction boundaries, timeouts and retries, safe migrations, money handling.
+- [**1Z0-808**](https://github.com/MatanElbaz/1Z0-808): an older project, a free Q&A guide for the Oracle Java SE 8 Programmer I exam.
